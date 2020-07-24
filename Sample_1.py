@@ -1,0 +1,5 @@
+file=input("Enter the name of the filename: ")
+filehandle=open(file,"w+")
+filehandle.write("BETTER")
+print(filehandle.read())
+filehandle.close()
